@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(98, 98, 98);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+main {
+  border-radius: 15px;
+  width: 1160px;
+  margin: 20px auto;
+  border: 1px solid gray;
+  padding: 20px;
+  background-color: white;
+}
+.topnav a {
+  float: center;
+  color: #e4e4e4;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #424242;
+  color: rgb(255, 255, 255);
+}
+h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: rgb(248, 248, 248);
+  background-color: rgb(58, 58, 58);
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+}
+h2 {
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+}

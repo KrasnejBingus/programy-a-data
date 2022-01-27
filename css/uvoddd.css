@@ -1,0 +1,36 @@
+#nav {
+    background-color: #181818;
+    margin: 0px;
+    overflow: hidden;
+  }
+  
+  #nav img {
+    float: left;
+    padding: 5px 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: bottom;
+  }
+  
+  #nav ul {
+    list-style-type: none;
+    margin: 0px;
+    background-color: #181818;
+    float: left;
+  }
+  
+  #nav li {
+    display: block;
+    float: left;
+    padding: 25px 10px;
+  }
+  
+  #nav li:hover {
+    background-color: #785442;
+  }
+  
+  #nav a {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
